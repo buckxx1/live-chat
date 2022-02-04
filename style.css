@@ -125,7 +125,8 @@ form .name-details .field:last-child{
     padding: 25px 30px;
 }
 
-.users header{
+.users header,
+.users-list a{
     display: flex;
     align-items: center;
     padding-bottom: 20px;
@@ -133,7 +134,81 @@ form .name-details .field:last-child{
     border-bottom: 1px solid #e6e6e6;
 }
 
+.wrapper img{
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.users header .content{
+    display: flex;
+    
+}
+
 .users header .content img{
     height: 50px;
     width: 50px;
+}
+
+.users header .details{
+    margin-left: 15px;
+}
+
+.users header .details span{
+    font-size: 18px;
+    font-weight: 900;
+    font-style: bold;
+}
+
+.users header .logout{
+    color: #fff;
+    font-size: 17px;
+    padding: 7px 15px;
+    background: #333;
+    border-radius: 5px;
+}
+
+.users .search{
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: space-between;
+}
+
+.users .search .text{
+    font-size: 18px;
+}
+
+.users .search input{
+    position: absolute;
+    height: 40px;
+    width: calc(100% - 50px);
+    border: 1px solid #ccc;
+    padding: 0 13px;
+    font-size: 16px;
+    border-radius: 5px;
+    outline: none;
+}
+
+.users .search button{
+    width: 45px;
+    height: 40px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #333;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+/* users list section */
+
+.users-list{
+
+}
+
+
+.users-list a .content img{
+    
 }
