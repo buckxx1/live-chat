@@ -27,6 +27,8 @@ continueBtn.onclick = () => {
         }
     }
     //sending the form data through ajax to php 
+
+    console.log("data attempting to send")
     let formData = new FormData(form); //this creates the formData object
 
 
